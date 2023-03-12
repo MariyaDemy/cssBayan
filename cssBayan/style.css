@@ -195,12 +195,16 @@ body {
 }
 
 .meme__input:checked ~ .meme__wrapper .meme__icon {
-    transform: rotate(180deg);
+
 }
 
 .meme__label:hover .meme__img {
     opacity: 1;
     max-height: 100%;
+}
+
+.meme__label:hover .meme__wrapper .meme__icon {
+    transform: rotate(180deg);
 }
 
 @media screen and (max-width: 1920px) and (max-height: 1080px){
