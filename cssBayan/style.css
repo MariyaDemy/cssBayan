@@ -132,19 +132,37 @@ input[type=button] {width: auto; overflow: visible;}
 /* ACCORDION */
 
 .headline {
-    font-size: 6.4rem;
+    font-size: 4.4rem;
     font-weight: 600;
     margin: 2rem;
     text-align: center;
 }
 
 .headline + hr {
-    height: 0.6rem;
+    height: 0.4rem;
     background: black;
 }
 
 .accordion {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 90%;
     background-color:azure;
 }
+
+.meme__label {
+
+}
+
+.meme__title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.meme__img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+}
+
