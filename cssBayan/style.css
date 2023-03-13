@@ -159,6 +159,7 @@ body {
 
 .meme__title {
     font-weight: 600;
+    color:rgb(58 21 193);
 }
 
 .meme__icon {
@@ -187,6 +188,17 @@ body {
     transform: rotate(180deg);
 }
 
+.meme__input:checked ~ .meme__wrapper .meme__title {
+    color:#000;
+}
+
+.meme__label:active .meme__wrapper .meme__title {
+    color:rgb(58 21 193);
+}
+
+.meme__label:active .meme__img {
+    filter: brightness(80%);
+}
 
 @media (hover: hover) {
     label {cursor: pointer;}
@@ -197,6 +209,10 @@ body {
 
     .accordion:hover .meme__icon{
         opacity: 1;
+    }
+
+    .accordion:hover .meme__title {
+        color: #000;
     }
 
     .meme__label:hover .meme__img {
@@ -232,5 +248,3 @@ body {
         font-size: 1.4rem;
     }
 }
-
-
